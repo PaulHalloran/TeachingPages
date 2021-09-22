@@ -356,10 +356,17 @@ step and slide for team intro
 
 #footer {
     position: fixed;
-    bottom: 0;
+    bottom: 1000;
     width: 100%;
 }
+
+#header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
 #center {
-    width: 500px;
+    width: 600px;
     margin: 0 auto;
 }
