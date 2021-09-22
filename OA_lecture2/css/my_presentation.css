@@ -33,10 +33,10 @@ body {
     width: 1850px;
     height: 1000px; */
     position: relative;
-    width: 1000px;
-    height: 700px;
-    padding: 40px 60px;
-    margin: 60px auto;
+    width: 1280px;
+    height: 720px;
+    padding: 2px 3px;
+    margin: 20px auto;
     box-sizing:         border-box;
 }
 
@@ -102,6 +102,11 @@ body {
     margin-top: 0.5em;
     text-align: center;
 }
+p {text-align: center;}
+h4 {text-align: center;font-size: 60px;}
+h5 {text-align: center;font-size: 40px;}
+h6 {text-align: center;font-size: 20px;}
+
 
 /* .step h1 {
   text-shadow: 4px 4px 3px #999999;
@@ -180,6 +185,8 @@ step and slide for team intro
     height: 700px;
     padding: 40px 60px;
 
+
+
     /* background-image: url(../images/background.png); */
     /* background-color: white; */
     /* border: 2px solid rgba(0, 0, 0, .3); */
@@ -190,6 +197,41 @@ step and slide for team intro
     /* text-shadow: 0 3px 3px rgba(0, 0, 0, .2); */
 
     font-family: 'Open Sans', Arial, sans-serif;
+}
+
+.slide .right {
+    float: right;
+    margin-left:  60px;
+    margin-right:   0px;
+    margin-top:    40px;
+    margin-bottom: 40px;
+}
+.slide .left {
+    float: left;
+    margin-right: 60px;
+    margin-left:    0px;
+    margin-top:    40px;
+    margin-bottom: 40px;
+}
+.slide .top {
+    position: absolute;
+    top: 40px;
+    margin-bottom:  40px;
+    margin-top:      0px;
+}
+.slide .bottom {
+    position: absolute;
+    bottom: 40px;
+    margin-bottom:   0px;
+    margin-top:     40px;
+}
+
+.slide .center {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top:    40px;
+  margin-bottom: 40px;
 }
 
 
@@ -209,6 +251,7 @@ step and slide for team intro
     margin-top: 0.5em;
     text-align: center;
 }
+
 
 /*
    Fade-in/out is a straightforward fade. Give it enough seconds that all browsers render it clearly.
@@ -252,6 +295,14 @@ step and slide for team intro
     transform: translate(-50%, -50%);
   }
 
+  .centered_udlf_bottom {
+      position: fixed;
+      top: 70%;
+      left: 50%;
+      /* bring your own prefixes */
+      transform: translate(-50%, -50%);
+    }
+
   .centered_paragraph_udlf {
       position: fixed;
       top: 50%;
@@ -259,6 +310,8 @@ step and slide for team intro
       /* bring your own prefixes */
       transform: translate(-5%, -50%);
     }
+
+
 
 .centered_title_udlf {
     position: fixed;
